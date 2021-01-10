@@ -129,13 +129,6 @@ public class BuildProposalValidations extends Utility {
 		}
 	}
 
-	public void verifySavedLead() {
-
-
-
-
-	}
-
 	public void parseDateMonthYear(String expectedFormat, String dateToBeParsed) {
 		try {
 			SimpleDateFormat selectedDateFormat = new SimpleDateFormat(expectedFormat, Locale.ENGLISH);
@@ -148,6 +141,13 @@ public class BuildProposalValidations extends Utility {
 			e.printStackTrace();
 
 		}
+	}
+	
+	public void readTestData() {
+		
+		testDataRead(credentialsFilePath);
+		testDataRead(testFilePath);
+		testDataRead(UITexts);
 	}
 
 }

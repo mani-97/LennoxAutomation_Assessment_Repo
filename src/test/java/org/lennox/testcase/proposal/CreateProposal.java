@@ -14,9 +14,7 @@ public class CreateProposal extends Utility {
 	@BeforeClass
 	public void startTest() {
 
-		testDataRead(credentialsFilePath);
-		testDataRead(testFilePath);
-		testDataRead(UITexts);
+		common.readTestData();
 		openChrome();
 		navigateToPage(credentials.get("URL"));
 		System.out.println(driver.getTitle());
