@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Page title is matching, page loaded as expected]]>
+    </line>
+    <line>
+      <![CDATA[Username in dashboard is matching with the user logged in]]>
+    </line>
+    <line>
+      <![CDATA[Create lead header is matching as expected]]>
+    </line>
+    <line>
+      <![CDATA[Select lead header is matching as expected]]>
+    </line>
+    <line>
+      <![CDATA[Create lead button  text is matching as expected]]>
+    </line>
+    <line>
+      <![CDATA[Select lead button  text is matching as expected]]>
+    </line>
+    <line>
+      <![CDATA[Add lead button is navigated to AddLead Page]]>
+    </line>
+    <line>
+      <![CDATA[First name field is filled with correct value from excel]]>
+    </line>
+    <line>
+      <![CDATA[Last name field is filled with correct value from excel]]>
+    </line>
+    <line>
+      <![CDATA[Email field is filled with correct value from excel]]>
+    </line>
+    <line>
+      <![CDATA[Phone number field is filled with correct value from excel]]>
+    </line>
+    <line>
+      <![CDATA[Date is selected as expected]]>
+    </line>
+    <line>
+      <![CDATA[Lead is saved successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="67835" started-at="2021-01-10T13:20:09Z" finished-at="2021-01-10T13:21:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="67835" started-at="2021-01-10T13:20:09Z" finished-at="2021-01-10T13:21:17Z">
+      <class name="org.lennox.testcase.proposal.CreateProposal">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:org.lennox.testcase.proposal.CreateProposal@77caeb3e]" name="startTest" is-config="true" duration-ms="15428" started-at="2021-01-10T18:50:09Z" finished-at="2021-01-10T18:50:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page title is matching, page loaded as expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="buildProposalFlow()[pri:0, instance:org.lennox.testcase.proposal.CreateProposal@77caeb3e]" name="buildProposalFlow" duration-ms="51565" started-at="2021-01-10T18:50:24Z" finished-at="2021-01-10T18:51:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Username in dashboard is matching with the user logged in]]>
+            </line>
+            <line>
+              <![CDATA[Create lead header is matching as expected]]>
+            </line>
+            <line>
+              <![CDATA[Select lead header is matching as expected]]>
+            </line>
+            <line>
+              <![CDATA[Create lead button  text is matching as expected]]>
+            </line>
+            <line>
+              <![CDATA[Select lead button  text is matching as expected]]>
+            </line>
+            <line>
+              <![CDATA[Add lead button is navigated to AddLead Page]]>
+            </line>
+            <line>
+              <![CDATA[First name field is filled with correct value from excel]]>
+            </line>
+            <line>
+              <![CDATA[Last name field is filled with correct value from excel]]>
+            </line>
+            <line>
+              <![CDATA[Email field is filled with correct value from excel]]>
+            </line>
+            <line>
+              <![CDATA[Phone number field is filled with correct value from excel]]>
+            </line>
+            <line>
+              <![CDATA[Date is selected as expected]]>
+            </line>
+            <line>
+              <![CDATA[Lead is saved successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- buildProposalFlow -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:org.lennox.testcase.proposal.CreateProposal@77caeb3e]" name="closeTest" is-config="true" duration-ms="821" started-at="2021-01-10T18:51:16Z" finished-at="2021-01-10T18:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- org.lennox.testcase.proposal.CreateProposal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
