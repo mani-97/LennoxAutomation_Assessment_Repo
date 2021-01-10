@@ -23,15 +23,15 @@ public class Utility extends ReadExcelFile {
 	private SoftAssert softAssert = new SoftAssert();
 	public static final String projectPath = System.getProperty("user.dir");
 	public ReadExcelFile excel = new ReadExcelFile();
-	WebDriverWait wd;
-	Actions ac;
-	Select dropDown;
+	private WebDriverWait wd;
+	private Actions ac;
+	private Select dropDown;
 	public static final String testFilePath = "\\src\\test\\resources\\TestData\\TestDataXL.xlsx";
 	public static final String credentialsFilePath = "\\src\\test\\resources\\TestData\\Credentials.xlsx";
 	public static final String UITexts = "\\src\\test\\resources\\TestData\\UITexts.xlsx";
 	public void openChrome() {
 
-		//System.setProperty("webdriver.chrome.driver", projectPath+"\\src\\test\\resources\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", projectPath+"\\src\\test\\resources\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
